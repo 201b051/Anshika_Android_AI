@@ -91,16 +91,16 @@ public class MainActivity extends AppCompatActivity {
 
 
         if (correctButton == 0) {
-            button1.setText(Integer.toString(correctAnswer));
             button2.setText(Integer.toString(correctAnswer+1));
+            button1.setText(Integer.toString(correctAnswer));
             button3.setText(Integer.toString(correctAnswer-1));
             button4.setText(Integer.toString(correctAnswer+2));
         }
 
         else if (correctButton == 1) {
-            button1.setText(Integer.toString(correctAnswer+1));
-            button2.setText(Integer.toString(correctAnswer));
             button3.setText(Integer.toString(correctAnswer-1));
+            button2.setText(Integer.toString(correctAnswer));
+            button1.setText(Integer.toString(correctAnswer+1));
             button4.setText(Integer.toString(correctAnswer+2));
         }
         else if (correctButton == 2) {
