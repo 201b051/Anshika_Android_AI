@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
         int correctAnswer=0;
         int min = 0;
         int max = 3;
-
+       // correctanswer and correct button code to get correct answer
         int correctButton = (int)Math.floor(Math.random()*(max-min+1)+min);
 
         if (operator == "+")
